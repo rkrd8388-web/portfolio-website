@@ -5,17 +5,22 @@ html{
   margin:0;
   padding:0;
   box-sizing:border-box;
-body {
-  font-family:Arial,sans-serif;
-  background:#f4f7fa;
-  color:#333;
+  
+body{
+    background-color: #f8fafc;
 }
-  .hero {
-    text-align:center;
-    padding:100px 20px;
-    color:white;
-     background:linear-gradient(135deg,#4f46e5,#06b6d4);
-  }
+
+}
+.hero{
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a,
+        #3b82f6
+    );
+    color: white;
+}
+
   .hero h1 {
     font-size:55px;
     margin-bottom:15px;
@@ -57,11 +62,11 @@ section {
     margin-top:10px;
     font-size: 20px;
   }
-  nav {
-    background:#222;
-    text-align:center;
-    padding:15px;
-  }
+ 
+nav{
+    background: #111827;
+}
+
   nav a {
     color:white;
     text-decoration:none;
@@ -71,23 +76,23 @@ section {
   nav a:hover {
     color:#06b6d4
   }
-  .card {
-    background:white;
-    width:85%;
-    margin:30px auto;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 4px 15px;
-rgba(0,0,0,0.1);
-  }
+ 
+.card{
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 30px;
+}
+
   .card h2 {
     margin-bottom:15px;
   }
-  .skills {
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-  }
+  
+.skill{
+    background: #2563eb;
+    color: white;
+}
+
   .projectbox {
     background:#f8f9fa;
     padding:15px;
